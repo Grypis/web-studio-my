@@ -51,6 +51,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
+
+.page-link-header:hover,
+.page-link-header:active {
+    color: #404bbf;
+}
+
 .page-address-header {
 }
 .menu-address-header {
@@ -63,6 +69,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.page-address-link-header:hover,
+.page-address-link-header:focus {
+    color: #404bbf;
 }
 
 /* ========================= /Header styles ====================== */
@@ -84,6 +95,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: #4d5ae5;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #404bbf;;
 }
 
 /* ========================= /Hero styles ====================== */
